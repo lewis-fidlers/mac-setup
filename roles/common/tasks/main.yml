@@ -20,11 +20,11 @@
   homebrew: name={{ item }} state=present
   with_items:
     - git
+    - hub    # hub is a command-line wrapper for git that makes you better at GitHub. 
     - ag     # [A code-searching tool similar to ack, but faster](http://geoff.greer.fm/ag/)
-    - gh     # [Fast github command client](https://github.com/jingweno/gh)
     - tmux   # [A better screen](http://tmux.sourceforge.net)
     - links  # [Browse in the terminal](http://links.twibright.com)
-    - ngrok  # [Easy way to get a public IP](https://ngrok.com)
+    # - ngrok  # [Easy way to get a public IP](https://ngrok.com)
     - htop   # [A better top](http://hisham.hm/htop/)
     - heroku # Heroku Toolbelt
     - mosh   # [A better ssh (sometimes)](https://mosh.mit.edu)
