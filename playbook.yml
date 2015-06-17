@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - common
+    - databases
+    - nginx
+    - ruby
+    # - ios                 # not doing ios development.
+    # - mail                # No fancy mail setup needed (yet)
+    - osx
